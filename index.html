@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Formulário</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/styles/main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="container-div">
+            <img class="container-div__img" src="assets/img/undraw_applications_vaxx.svg" alt="mulher escolhendo opções num site">
+        </div>
+        <section class="container-section">
+            <form class="container-section-form" action="#">
+                <div class="section-form-div">
+                    <legend class="section-form-div__legend">Cadastre-se</legend>
+                    <button type="submit" class="section-form-div__button">Entrar</button>
+                </div>
+                <fieldset class="fieldset">
+                    <div class="fieldset-first-column">
+                        <label class="fieldset-label" for="firstname">Nome</label>
+                        <input class="fieldset-input" type="text" name="firstname" id="firstname" placeholder="Digite seu primeiro nome" required>
+
+                        <label class="fieldset-label" for="email">E-mail</label>
+                        <input class="fieldset-input" type="email" name="email" id="email" placeholder="Digite seu e-mail" required>
+
+                        <label class="fieldset-label" for="password">Digite sua senha</label>
+                        <input class="fieldset-input" type="password" name="password" id="password" placeholder="Digite sua senha" required>
+                    </div>
+
+                    <div class="fieldset-second-column">
+                        <label class="fieldset-label" for="lastname">Sobrenome</label>
+                        <input class="fieldset-input" type="text" name="lastname" id="lastname" placeholder="Digite seu sobrenome" required>
+
+                        <label class="fieldset-label" for="number">Celular</label>
+                        <input class="fieldset-input" type="tel" name="number" id="number" placeholder="(xx) x xxxx-xxxx" required>
+                    
+                        <label class="fieldset-label" for="confirmpassword">Confirme sua senha</label>
+                        <input class="fieldset-input" type="password" name="confirmpassword" id="confirmpassword" placeholder="Confirme sua senha" required>
+                    </div>
+                </fieldset>
+                <div class="div-gender">
+                    <label class="div-gender__label" for="title">Gênero</label>
+                    <div class="div-gender-group">
+                        <div class="div-gender-group-1">
+                            <input class="div-gender-group__input" type="radio" id="female" name="gender" required>
+                            <label class="div-gender-group__label"for="female">Feminino</label>
+
+                            <input class="div-gender-group__input" type="radio" id="male" name="gender" required>
+                            <label class="div-gender-group__label"for="male">Masculino</label>
+                        </div>
+
+                        <div class="div-gender-group-2">
+                            <input class="div-gender-group__input" type="radio" id="others" name="gender" required>
+                            <label class="div-gender-group__label"for="others">Outros</label>
+
+                            <input class="div-gender-group__input" type="radio" id="none" name="gender" required>
+                            <label class="div-gender-group__label"for="none">Prefiro não dizer</label>
+                        </div>
+                    </div>
+                </div>
+
+                <footer class="footer">
+                    <div class="footer-div">
+                        <button class="footer-button" type="submit">Continuar</button>
+                        <div class="footer-login">
+                            <p class="footer-login__p"><a href="#">Faça seu login</a></p>
+                        </div>
+                    </div>
+                    
+                </footer>
+            </form>
+        </section>
+    </div>
+</body>
+</html>
