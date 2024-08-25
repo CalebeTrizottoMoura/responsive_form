@@ -224,7 +224,7 @@ body {
         height: 0px; /* Para esconder a barra horizontal */
     }
     .section-form-div {
-        margin: 3rem 0 1rem;
+        margin: 2rem 0 0;
     }
     .section-form-div__legend {
         font-size: max(3.5rem, 1vw);
@@ -268,7 +268,7 @@ body {
         margin: 0 2rem 0 0;
     }
     .footer {
-        margin: 3rem 0 3rem;
+        margin: 2rem 0 2rem;
     }
     .footer-div {
         width: 100%;
